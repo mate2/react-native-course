@@ -65,6 +65,7 @@ class LoginForm extends Component {
           <Input 
             placeholder='password'
             secureTextEntry
+            autoCorrect={false}
             label='Password'
             value={this.state.password}
             onChangeText={password => this.setState({ password })}
